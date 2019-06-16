@@ -1,3 +1,5 @@
+/* Regole generali */
+
 h1, h2, h3, h4, ul {
   font-family: 'Montserrat', sans-serif;
 }
@@ -6,10 +8,16 @@ h5, p {
   font-family: 'Lato', sans-serif;
 }
 
+.sec1, .sec3 {
+  background-color: #1ABC9C;
+}
+
+
+/* Sezione header */
+
 header {
   height: 100px;
   width: 100%;
-  position: relative;
 }
 
 header h3 {
@@ -70,19 +78,26 @@ header h3 {
   .panino {
     display: inline-block;
   }
-
 }
 
 
+/* Sezione di benvenuto */
 
-.sec1, .sec3 {
-  background-color: #1ABC9C;
+.sec1 {
+  padding: 150px 0 100px 0;
+  color: #fff;
 }
 
 .loghi {
   max-height: 200px;
 }
+.sec1 h3 {
+    font-family: 'Lato', sans-serif;
+}
 
 header, footer {
   background-color: #2C3E50;
 }
+
+
+/* Sezione portfolio */
