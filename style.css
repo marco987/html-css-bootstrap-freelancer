@@ -101,3 +101,23 @@ header, footer {
 
 
 /* Sezione portfolio */
+
+.sec2 {
+  margin: 100px auto;
+}
+.sec2b {
+  text-align: center;
+}
+
+.sec2b img {
+  padding: 10px;
+  max-width: 100%;
+}
+
+.sec2b img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+/* Sezione about */
