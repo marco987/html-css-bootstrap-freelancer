@@ -121,3 +121,31 @@ header, footer {
 
 
 /* Sezione about */
+
+.sec3 {
+  padding: 150px 0 100px 0;
+  color: #fff;
+}
+
+.sec3 p {
+  font-size: 1.5em;
+}
+
+.download {
+  text-align: center;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  height: 60px;
+  line-height: 30px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.download:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+
+/* Sezione contact */
