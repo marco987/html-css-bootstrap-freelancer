@@ -1,0 +1,88 @@
+h1, h2, h3, h4, ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5, p {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+header h3 {
+  color: #fff;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.menu ul {
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 100px;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.menu li:hover {
+  color: #1ABC9C;
+  cursor: pointer;
+}
+
+.panino {
+  display: none;
+  margin: 0;
+  height: 100px;
+}
+
+.panino p {
+  background-color: #1ABC9C;
+  color: #fff;
+  width: 100px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+@media all and (max-width: 992px) {
+  .menu {
+    display: none;
+  }
+
+  .panino {
+    display: inline-block;
+  }
+
+}
+
+
+
+.sec1, .sec3 {
+  background-color: #1ABC9C;
+}
+
+.loghi {
+  max-height: 200px;
+}
+
+header, footer {
+  background-color: #2C3E50;
+}
